@@ -8,7 +8,7 @@ const rootElement: any = document.getElementById('app-root');
 const root = createRoot(rootElement);
 
 root.render(
-    <ChakraProvider theme={theme} resetCSS={true}>
-        <App />
-    </ChakraProvider>,
+  <ChakraProvider theme={theme} resetCSS={true}>
+    <App />
+  </ChakraProvider>,
 );
